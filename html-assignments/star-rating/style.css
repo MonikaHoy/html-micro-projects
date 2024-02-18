@@ -1,0 +1,30 @@
+/* FILEPATH: styles.css
+   Description: This CSS code sets the font size and color of all paragraphs on the page. */
+
+h2 {
+  font-size: 20px;
+  color: #ff69b4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #f8f8ff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px #ccc;
+}
+img {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,55 @@
+/* FILEPATH: styles.css
+   Description: This CSS code sets the font size and color of all paragraphs on the page. */
+
+progress {
+  border-radius: 40px;
+  width: 20%;
+  height: 10px;
+}
+progress::-webkit-progress-bar {
+  background-color: yellow;
+  opacity: 0.5;
+  border-radius: 40px;
+  box-shadow: 0 1.5px 3px rgba(0, 0, 1, 0.1) inset;
+}
+progress::-webkit-progress-value {
+  background-color: #ff69b4;
+  border-radius: 40px;
+}
+h2 {
+  font-size: 20px;
+  color: #ff69b4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: #ff69b4;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+button:active {
+  background-color: #ff1493;
+  vertical-align: top;
+  padding: 8px 13px 6px;
+}
+button:hover {
+  background-color: #ff1493;
+}
+body {
+  background-color: #f8f8ff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
