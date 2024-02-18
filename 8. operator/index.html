@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Operator</h2>
+    <p>
+      There are 4 elements in this interface. Two operands: A and B; a operator
+      select box with the following values: +. -, *, / and a result box that is
+      read-only. Result will display the result of operands A and B using the
+      selected operation.
+    </p>
+    <div class="container">
+      <input type="number" class="input operand" placeholder="A" />
+      <select class="input operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="number" class="input operand" placeholder="B" />
+      <input class="input result" placeholder="Result" readonly />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

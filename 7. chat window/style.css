@@ -1,0 +1,90 @@
+/* FILEPATH: styles.css
+   Description: This CSS code sets the font size and color of all paragraphs on the page. */
+
+h2 {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+}
+p {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+  font-weight: bold;
+  width: 300px;
+  text-align: center;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8ff;
+}
+.send-button {
+  background-color: #ff69b4;
+  border: 1px solid pink;
+  border-radius: 60px;
+  padding: 3px;
+  width: 100px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.send-button:active {
+  background-color: #ff69b4;
+  opacity: 0.5;
+}
+.container.chatbox {
+  overflow-y: scroll;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 40px;
+  display: flex;
+  border: 1px solid pink;
+  background-color: #f8f8ff;
+}
+.container .chat-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.chat-input {
+  background-color: aliceblue;
+  height: auto;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid pink;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 60px;
+}
+.chat-input:focus {
+  outline: none;
+  background: yellow;
+  opacity: 0.5;
+}
+.message-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #ff69b4;
+}
+.name {
+  opacity: 0.5;
+}
+.text-container {
+  flex-direction: column;
+  display: flex;
+}

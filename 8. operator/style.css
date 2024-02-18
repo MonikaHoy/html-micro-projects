@@ -1,0 +1,46 @@
+/* FILEPATH: styles.css
+   Description: This CSS code sets the font size and color of all paragraphs on the page. */
+
+h2 {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+}
+p {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+  font-weight: bold;
+  width: 300px;
+  text-align: center;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8ff;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.input {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+  text-align: center;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
